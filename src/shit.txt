@@ -1,0 +1,38 @@
+3-1-2 (if-elseif)
+3-4-6 (if,if)
+
+
+312 = command not found, command found, attr on.
+
+346 = command not found, found bracket, no attrs.
+
+
+
+must be if,if
+
+so it can go / / } } / }
+otherwise it will do brackets then ends
+
+
+
+"hey"
+find e = 1
+sub 1 = ey
+sub (0,1)
+
+
+if(a=1 != b)
+
+must be
+
+if((a=1) != b)
+
+
+
+1-2-4-5 = command found, bold on, bracket found, bold off.
+
+
+1-2-4-5 = com found, bold on, brack found, bold off
+1-2
+
+1-4-5
