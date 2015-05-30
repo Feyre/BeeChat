@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F3458081B09E83500EE7E6D /* AppMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F3457FC1B09E83500EE7E6D /* AppMain.cpp */; };
+		0F3458091B09E83500EE7E6D /* BeeChatApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F3457FD1B09E83500EE7E6D /* BeeChatApp.cpp */; };
+		0F34580B1B09E83500EE7E6D /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F3457FF1B09E83500EE7E6D /* Client.cpp */; };
+		0F34580C1B09E83500EE7E6D /* ClientChatConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F3458011B09E83500EE7E6D /* ClientChatConnection.cpp */; };
+		0F34580D1B09E83500EE7E6D /* IChatConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F3458021B09E83500EE7E6D /* IChatConnection.cpp */; };
+		0F34580E1B09E83500EE7E6D /* ServerChatConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F3458031B09E83500EE7E6D /* ServerChatConnection.cpp */; };
+		0F34580F1B09E83500EE7E6D /* UDPClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F3458041B09E83500EE7E6D /* UDPClient.cpp */; };
+		0F3458101B09E83500EE7E6D /* UDPConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F3458051B09E83500EE7E6D /* UDPConnection.cpp */; };
+		0F3458111B09E83500EE7E6D /* UDPServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F3458061B09E83500EE7E6D /* UDPServer.cpp */; };
+		0F3458121B09E83500EE7E6D /* Server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F3458071B09E83500EE7E6D /* Server.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F3457DD1B09E81D00EE7E6D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F3457DF1B09E81D00EE7E6D /* BeeChat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BeeChat; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3457EA1B09E83500EE7E6D /* BeeChatApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeChatApp.h; sourceTree = "<group>"; };
+		0F3457EB1B09E83500EE7E6D /* BeeChatException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeChatException.h; sourceTree = "<group>"; };
+		0F3457EC1B09E83500EE7E6D /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		0F3457EE1B09E83500EE7E6D /* ClientChatConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientChatConnection.h; sourceTree = "<group>"; };
+		0F3457EF1B09E83500EE7E6D /* ClientMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientMessage.h; sourceTree = "<group>"; };
+		0F3457F01B09E83500EE7E6D /* IChatConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatConnection.h; sourceTree = "<group>"; };
+		0F3457F11B09E83500EE7E6D /* ServerChatConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerChatConnection.h; sourceTree = "<group>"; };
+		0F3457F21B09E83500EE7E6D /* UDPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPClient.h; sourceTree = "<group>"; };
+		0F3457F31B09E83500EE7E6D /* UDPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPConnection.h; sourceTree = "<group>"; };
+		0F3457F41B09E83500EE7E6D /* UDPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPServer.h; sourceTree = "<group>"; };
+		0F3457F51B09E83500EE7E6D /* GUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUI.h; sourceTree = "<group>"; };
+		0F3457F71B09E83500EE7E6D /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		0F3457F81B09E83500EE7E6D /* MessageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageFactory.h; sourceTree = "<group>"; };
+		0F3457F91B09E83500EE7E6D /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		0F3457FA1B09E83500EE7E6D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0F3457FC1B09E83500EE7E6D /* AppMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppMain.cpp; sourceTree = "<group>"; };
+		0F3457FD1B09E83500EE7E6D /* BeeChatApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeeChatApp.cpp; sourceTree = "<group>"; };
+		0F3457FF1B09E83500EE7E6D /* Client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Client.cpp; sourceTree = "<group>"; };
+		0F3458011B09E83500EE7E6D /* ClientChatConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClientChatConnection.cpp; sourceTree = "<group>"; };
+		0F3458021B09E83500EE7E6D /* IChatConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IChatConnection.cpp; sourceTree = "<group>"; };
+		0F3458031B09E83500EE7E6D /* ServerChatConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServerChatConnection.cpp; sourceTree = "<group>"; };
+		0F3458041B09E83500EE7E6D /* UDPClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UDPClient.cpp; sourceTree = "<group>"; };
+		0F3458051B09E83500EE7E6D /* UDPConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UDPConnection.cpp; sourceTree = "<group>"; };
+		0F3458061B09E83500EE7E6D /* UDPServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UDPServer.cpp; sourceTree = "<group>"; };
+		0F3458071B09E83500EE7E6D /* Server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Server.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F3457DC1B09E81D00EE7E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F3457D61B09E81D00EE7E6D = {
+			isa = PBXGroup;
+			children = (
+				0F3457E11B09E81D00EE7E6D /* BeeChat */,
+				0F3457E01B09E81D00EE7E6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F3457E01B09E81D00EE7E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F3457DF1B09E81D00EE7E6D /* BeeChat */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F3457E11B09E81D00EE7E6D /* BeeChat */ = {
+			isa = PBXGroup;
+			children = (
+				0F3457E91B09E83500EE7E6D /* include */,
+				0F3457FB1B09E83500EE7E6D /* src */,
+			);
+			path = BeeChat;
+			sourceTree = "<group>";
+		};
+		0F3457E91B09E83500EE7E6D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0F3457EA1B09E83500EE7E6D /* BeeChatApp.h */,
+				0F3457EB1B09E83500EE7E6D /* BeeChatException.h */,
+				0F3457EC1B09E83500EE7E6D /* Client.h */,
+				0F3457ED1B09E83500EE7E6D /* ConnectionLayer */,
+				0F3457F51B09E83500EE7E6D /* GUI.h */,
+				0F3457F61B09E83500EE7E6D /* Message */,
+				0F3457F71B09E83500EE7E6D /* Message.h */,
+				0F3457F81B09E83500EE7E6D /* MessageFactory.h */,
+				0F3457F91B09E83500EE7E6D /* Server.h */,
+				0F3457FA1B09E83500EE7E6D /* User.h */,
+			);
+			name = include;
+			path = ../../include;
+			sourceTree = "<group>";
+		};
+		0F3457ED1B09E83500EE7E6D /* ConnectionLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0F3457EE1B09E83500EE7E6D /* ClientChatConnection.h */,
+				0F3457EF1B09E83500EE7E6D /* ClientMessage.h */,
+				0F3457F01B09E83500EE7E6D /* IChatConnection.h */,
+				0F3457F11B09E83500EE7E6D /* ServerChatConnection.h */,
+				0F3457F21B09E83500EE7E6D /* UDPClient.h */,
+				0F3457F31B09E83500EE7E6D /* UDPConnection.h */,
+				0F3457F41B09E83500EE7E6D /* UDPServer.h */,
+			);
+			path = ConnectionLayer;
+			sourceTree = "<group>";
+		};
+		0F3457F61B09E83500EE7E6D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		0F3457FB1B09E83500EE7E6D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0F3457FC1B09E83500EE7E6D /* AppMain.cpp */,
+				0F3457FD1B09E83500EE7E6D /* BeeChatApp.cpp */,
+				0F3457FF1B09E83500EE7E6D /* Client.cpp */,
+				0F3458001B09E83500EE7E6D /* ConnectionLayer */,
+				0F3458071B09E83500EE7E6D /* Server.cpp */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		0F3458001B09E83500EE7E6D /* ConnectionLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0F3458011B09E83500EE7E6D /* ClientChatConnection.cpp */,
+				0F3458021B09E83500EE7E6D /* IChatConnection.cpp */,
+				0F3458031B09E83500EE7E6D /* ServerChatConnection.cpp */,
+				0F3458041B09E83500EE7E6D /* UDPClient.cpp */,
+				0F3458051B09E83500EE7E6D /* UDPConnection.cpp */,
+				0F3458061B09E83500EE7E6D /* UDPServer.cpp */,
+			);
+			path = ConnectionLayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F3457DE1B09E81D00EE7E6D /* BeeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3457E61B09E81D00EE7E6D /* Build configuration list for PBXNativeTarget "BeeChat" */;
+			buildPhases = (
+				0F3457DB1B09E81D00EE7E6D /* Sources */,
+				0F3457DC1B09E81D00EE7E6D /* Frameworks */,
+				0F3457DD1B09E81D00EE7E6D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeChat;
+			productName = BeeChat;
+			productReference = 0F3457DF1B09E81D00EE7E6D /* BeeChat */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F3457D71B09E81D00EE7E6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Julian ";
+				TargetAttributes = {
+					0F3457DE1B09E81D00EE7E6D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0F3457DA1B09E81D00EE7E6D /* Build configuration list for PBXProject "BeeChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F3457D61B09E81D00EE7E6D;
+			productRefGroup = 0F3457E01B09E81D00EE7E6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F3457DE1B09E81D00EE7E6D /* BeeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F3457DB1B09E81D00EE7E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F34580E1B09E83500EE7E6D /* ServerChatConnection.cpp in Sources */,
+				0F3458091B09E83500EE7E6D /* BeeChatApp.cpp in Sources */,
+				0F34580B1B09E83500EE7E6D /* Client.cpp in Sources */,
+				0F3458111B09E83500EE7E6D /* UDPServer.cpp in Sources */,
+				0F34580D1B09E83500EE7E6D /* IChatConnection.cpp in Sources */,
+				0F34580C1B09E83500EE7E6D /* ClientChatConnection.cpp in Sources */,
+				0F34580F1B09E83500EE7E6D /* UDPClient.cpp in Sources */,
+				0F3458081B09E83500EE7E6D /* AppMain.cpp in Sources */,
+				0F3458101B09E83500EE7E6D /* UDPConnection.cpp in Sources */,
+				0F3458121B09E83500EE7E6D /* Server.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F3457E41B09E81D00EE7E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0F3457E51B09E81D00EE7E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0F3457E71B09E81D00EE7E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Users/P/Documents/GitHub/BeeChat/include/ /Users/P/Documents/GitHub/BeeChat/include/ConnectionLayer/";
+			};
+			name = Debug;
+		};
+		0F3457E81B09E81D00EE7E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F3457DA1B09E81D00EE7E6D /* Build configuration list for PBXProject "BeeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3457E41B09E81D00EE7E6D /* Debug */,
+				0F3457E51B09E81D00EE7E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F3457E61B09E81D00EE7E6D /* Build configuration list for PBXNativeTarget "BeeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3457E71B09E81D00EE7E6D /* Debug */,
+				0F3457E81B09E81D00EE7E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F3457D71B09E81D00EE7E6D /* Project object */;
+}
